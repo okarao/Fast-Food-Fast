@@ -38,28 +38,27 @@
 		<li><a href="index.html">Log Out</a></li>
 		</ul>
 		</div>
-	<div class="content">
-<form name="newitems" action="" method="POST">
-  <h1>New Product</h1>
-    <p>Item Code:&nbsp;&nbsp;
+		<div class="content">
+<form name="orders" action="" method="POST">
+  <h1>Manage Orders</h1>
+    <p>Order Code:&nbsp;&nbsp;
     <input type="text" name="user" placeholder="Enter Username"></p>
-	<p>Item Name:&nbsp;&nbsp;
+	<p>Client Name:&nbsp;&nbsp;
     <input type="text" name="user" placeholder="Enter Username"></p>
-	<p>Availability:&nbsp;&nbsp;
+	<p>Amount:&nbsp;&nbsp;<input type="password" name="user" placeholder="Enter Password"></p>
+	<p>Status:&nbsp;&nbsp;
 	<select>
-	<option>Available</option>
-	<option>Not Available</option>
-	</select></p>
-    <p>Unity Price:&nbsp;&nbsp;<input type="text" name="user" placeholder="Enter Password"></p>
-	<p>Icon:&nbsp;&nbsp;<input type="file" name="user" placeholder="Enter Password"></p>
-    
+	<option>Pending</option>
+	<option>Rejected</option>
+	<option>Completed</option>
+	</select></p> 
     <input type="submit" value="Save" >
 	<input type="submit" value="Delete" >
 </form>
 <hr>
 <table width="80%">
-<caption>Available Food Items</caption>
-<tr><th>S/N</th><th>ITEM CODE</th><th>ITEM NAME</th><th>UNIT PRICE</th><th>AVAILABILITY</th><th></th></tr>
+<caption>Orders</caption>
+<tr><th>S/N</th><th>Order ID</th><th>ITEM NAME</th><th>QUANTITY</th><th>COST</th><th></th></tr>
 <tr><td>1</td><td>320</td><td>Hot Coffe</td><td>Ksh. 50</td><td>Available</td><td><input type="button" value="Edit">&nbsp;&nbsp;<input type="button" value="Delete"></td></tr>
 <tr><td>2</td><td>321</td><td>Burger</td><td>Ksh. 100</td><td>Available</td><td><input type="button" value="Edit">&nbsp;&nbsp;<input type="button" value="Delete"></td></tr>
 <tr><td>3</td><td>322</td><td>Snack Bowl</td><td>Ksh. 80</td><td>Available</td><td><input type="button" value="Edit">&nbsp;&nbsp;<input type="button" value="Delete"></td></tr>

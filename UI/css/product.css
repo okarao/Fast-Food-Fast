@@ -4,7 +4,7 @@ body{
 	font-size: 12px;
 }
 .products{
-	width:1000px; 
+	width:70%; 
 	display:table;
 	margin: auto;
 }
@@ -12,7 +12,7 @@ body{
 .products h3{
 	float:left;
 	color:#000;
-	background:#d3654c;
+	background:#e8491d;
 	margin:0px;
 	line-height:41px;
 	text-indent:50px;
@@ -47,7 +47,7 @@ body{
 }
 .product a{
 	float:left;
-	width:100p%;
+	width:100%;
 	text-align:center;
 }
 .product a.img{
@@ -66,12 +66,12 @@ body{
 	margin-top:10px;
 }
 .product a.name hover{
-	color:#d3654c;
+	color:#e8491d;
 }
 .product div{
 	font-size:10px;
 	font-weight:bold;
-	color:#d3654c;
+	color:#e8491d;
 	text-indent:10px;
 	margin:10px 0 10px 0;
 	float:left;
@@ -82,11 +82,11 @@ body{
 	background: #f2f2f2 url() 30px 2px no-repeat;
 	line-height: 30px;
 	font-weight:bold;
-	color: #d3654c;
+	color: #e8491d;
 	text-decoration:none;
 }
 .product a.cart:hover{
-	background:#d3654c;
+	background:#e8491d;
 	color:#fff;
 }
 .product span{
@@ -103,7 +103,7 @@ body{
 	text-shadow:0 0 3px yellow;
 }
 .product:hover span{
-	background-color:#d3654c;
+	background-color:#e8491d;
 }
 .product:hover a.img img{
 	opacity:0.7;
